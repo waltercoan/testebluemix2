@@ -1,0 +1,17 @@
+{
+  "name": "shoplist",
+  "version": "0.0.1",
+  "description": "lista de compras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "lista",
+    "compras",
+    "shopping"
+  ],
+  "author": "walter coan",
+  "license": "ISC"
+}
