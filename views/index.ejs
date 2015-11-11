@@ -6,6 +6,10 @@
         <h1>
             Olá! {{hue}}
         </h1>
+        <h1>Lista de compras da Dona Salete</h1>
+        <div ng-repeat="item in lista">
+            {{item.item}} = {{item.quantidade}}
+        </div>
         <script src="js/angular.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/shoplist.js"></script>
