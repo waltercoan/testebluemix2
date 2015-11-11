@@ -1,6 +1,10 @@
+var routes = require('./routes');
 var express = require('express');
+var ejs = require('ejs');
+var path = require('path');
+
 var app = express();
-app.get('/', function(req, res){
-	res.send("Hello world!");
-});
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+app.get('/', routes.index);
 app.listen(process.env.VCAP_APP_PORT || 8080);
